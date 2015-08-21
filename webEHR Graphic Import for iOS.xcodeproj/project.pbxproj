@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92106DD1B86D25C0039CF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92106DC1B86D25C0039CF0F /* AppDelegate.swift */; };
+		C92106DF1B86D25C0039CF0F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92106DE1B86D25C0039CF0F /* FirstViewController.swift */; };
+		C92106E11B86D25C0039CF0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92106E01B86D25C0039CF0F /* SecondViewController.swift */; };
+		C92106E41B86D25C0039CF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92106E21B86D25C0039CF0F /* Main.storyboard */; };
+		C92106E61B86D25C0039CF0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92106E51B86D25C0039CF0F /* Images.xcassets */; };
+		C92106E91B86D25C0039CF0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92106E71B86D25C0039CF0F /* LaunchScreen.xib */; };
+		C92106F51B86D25C0039CF0F /* webEHR_Graphic_Import_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92106F41B86D25C0039CF0F /* webEHR_Graphic_Import_for_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C92106EF1B86D25C0039CF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C92106CF1B86D25C0039CF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C92106D61B86D25C0039CF0F;
+			remoteInfo = "webEHR Graphic Import for iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C92106D71B86D25C0039CF0F /* webEHR Graphic Import for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webEHR Graphic Import for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92106DB1B86D25C0039CF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92106DC1B86D25C0039CF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C92106DE1B86D25C0039CF0F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C92106E01B86D25C0039CF0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C92106E31B86D25C0039CF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C92106E51B86D25C0039CF0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C92106E81B86D25C0039CF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C92106EE1B86D25C0039CF0F /* webEHR Graphic Import for iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webEHR Graphic Import for iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92106F31B86D25C0039CF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92106F41B86D25C0039CF0F /* webEHR_Graphic_Import_for_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webEHR_Graphic_Import_for_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92106D41B86D25C0039CF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92106EB1B86D25C0039CF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92106CE1B86D25C0039CF0F = {
+			isa = PBXGroup;
+			children = (
+				C92106D91B86D25C0039CF0F /* webEHR Graphic Import for iOS */,
+				C92106F11B86D25C0039CF0F /* webEHR Graphic Import for iOSTests */,
+				C92106D81B86D25C0039CF0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C92106D81B86D25C0039CF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92106D71B86D25C0039CF0F /* webEHR Graphic Import for iOS.app */,
+				C92106EE1B86D25C0039CF0F /* webEHR Graphic Import for iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92106D91B86D25C0039CF0F /* webEHR Graphic Import for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C92106DC1B86D25C0039CF0F /* AppDelegate.swift */,
+				C92106DE1B86D25C0039CF0F /* FirstViewController.swift */,
+				C92106E01B86D25C0039CF0F /* SecondViewController.swift */,
+				C92106E21B86D25C0039CF0F /* Main.storyboard */,
+				C92106E51B86D25C0039CF0F /* Images.xcassets */,
+				C92106E71B86D25C0039CF0F /* LaunchScreen.xib */,
+				C92106DA1B86D25C0039CF0F /* Supporting Files */,
+			);
+			path = "webEHR Graphic Import for iOS";
+			sourceTree = "<group>";
+		};
+		C92106DA1B86D25C0039CF0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C92106DB1B86D25C0039CF0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C92106F11B86D25C0039CF0F /* webEHR Graphic Import for iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C92106F41B86D25C0039CF0F /* webEHR_Graphic_Import_for_iOSTests.swift */,
+				C92106F21B86D25C0039CF0F /* Supporting Files */,
+			);
+			path = "webEHR Graphic Import for iOSTests";
+			sourceTree = "<group>";
+		};
+		C92106F21B86D25C0039CF0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C92106F31B86D25C0039CF0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C92106D61B86D25C0039CF0F /* webEHR Graphic Import for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92106F81B86D25C0039CF0F /* Build configuration list for PBXNativeTarget "webEHR Graphic Import for iOS" */;
+			buildPhases = (
+				C92106D31B86D25C0039CF0F /* Sources */,
+				C92106D41B86D25C0039CF0F /* Frameworks */,
+				C92106D51B86D25C0039CF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "webEHR Graphic Import for iOS";
+			productName = "webEHR Graphic Import for iOS";
+			productReference = C92106D71B86D25C0039CF0F /* webEHR Graphic Import for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C92106ED1B86D25C0039CF0F /* webEHR Graphic Import for iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92106FB1B86D25C0039CF0F /* Build configuration list for PBXNativeTarget "webEHR Graphic Import for iOSTests" */;
+			buildPhases = (
+				C92106EA1B86D25C0039CF0F /* Sources */,
+				C92106EB1B86D25C0039CF0F /* Frameworks */,
+				C92106EC1B86D25C0039CF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C92106F01B86D25C0039CF0F /* PBXTargetDependency */,
+			);
+			name = "webEHR Graphic Import for iOSTests";
+			productName = "webEHR Graphic Import for iOSTests";
+			productReference = C92106EE1B86D25C0039CF0F /* webEHR Graphic Import for iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92106CF1B86D25C0039CF0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jeffrey W. Pearson";
+				TargetAttributes = {
+					C92106D61B86D25C0039CF0F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C92106ED1B86D25C0039CF0F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C92106D61B86D25C0039CF0F;
+					};
+				};
+			};
+			buildConfigurationList = C92106D21B86D25C0039CF0F /* Build configuration list for PBXProject "webEHR Graphic Import for iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C92106CE1B86D25C0039CF0F;
+			productRefGroup = C92106D81B86D25C0039CF0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92106D61B86D25C0039CF0F /* webEHR Graphic Import for iOS */,
+				C92106ED1B86D25C0039CF0F /* webEHR Graphic Import for iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92106D51B86D25C0039CF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92106E41B86D25C0039CF0F /* Main.storyboard in Resources */,
+				C92106E91B86D25C0039CF0F /* LaunchScreen.xib in Resources */,
+				C92106E61B86D25C0039CF0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92106EC1B86D25C0039CF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92106D31B86D25C0039CF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92106E11B86D25C0039CF0F /* SecondViewController.swift in Sources */,
+				C92106DD1B86D25C0039CF0F /* AppDelegate.swift in Sources */,
+				C92106DF1B86D25C0039CF0F /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92106EA1B86D25C0039CF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92106F51B86D25C0039CF0F /* webEHR_Graphic_Import_for_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C92106F01B86D25C0039CF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C92106D61B86D25C0039CF0F /* webEHR Graphic Import for iOS */;
+			targetProxy = C92106EF1B86D25C0039CF0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C92106E21B86D25C0039CF0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92106E31B86D25C0039CF0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C92106E71B86D25C0039CF0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92106E81B86D25C0039CF0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C92106F61B86D25C0039CF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C92106F71B86D25C0039CF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C92106F91B86D25C0039CF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "webEHR Graphic Import for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C92106FA1B86D25C0039CF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "webEHR Graphic Import for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C92106FC1B86D25C0039CF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "webEHR Graphic Import for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webEHR Graphic Import for iOS.app/webEHR Graphic Import for iOS";
+			};
+			name = Debug;
+		};
+		C92106FD1B86D25C0039CF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "webEHR Graphic Import for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webEHR Graphic Import for iOS.app/webEHR Graphic Import for iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92106D21B86D25C0039CF0F /* Build configuration list for PBXProject "webEHR Graphic Import for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92106F61B86D25C0039CF0F /* Debug */,
+				C92106F71B86D25C0039CF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92106F81B86D25C0039CF0F /* Build configuration list for PBXNativeTarget "webEHR Graphic Import for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92106F91B86D25C0039CF0F /* Debug */,
+				C92106FA1B86D25C0039CF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C92106FB1B86D25C0039CF0F /* Build configuration list for PBXNativeTarget "webEHR Graphic Import for iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92106FC1B86D25C0039CF0F /* Debug */,
+				C92106FD1B86D25C0039CF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C92106CF1B86D25C0039CF0F /* Project object */;
+}
